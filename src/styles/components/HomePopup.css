@@ -1,11 +1,11 @@
 .mainArea{
   text-align: center;
-  display: felx;
+  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   z-index: 1;
-  margin-top: 20%;
+  /* margin-top: 20%; */
 }
 .popupFrame{
   width: 75%;
