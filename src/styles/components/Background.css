@@ -1,0 +1,15 @@
+.titleCard{
+  position: absolute;
+  z-index: -1;
+  width: 100%
+  /* opacity: .70; */
+}
+
+.area{
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  filter: blur(3px);
+  opacity: .8;
+}
