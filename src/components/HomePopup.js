@@ -4,8 +4,15 @@ import "../styles/components/HomePopup.css"
 export default function HomePopup() {
   
   return (
-    <div className="popupFrame" >
-      <p>text</p>
+    <div>
+      <div className="mainArea">
+        <div className="pressableEnter">
+          <h2>E N T E R</h2>
+        </div>
+        {/* <div className="popupFrame" >
+          <p>text</p>
+        </div> */}
+      </div>
     </div>
   )
 }

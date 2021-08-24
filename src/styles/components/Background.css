@@ -1,5 +1,5 @@
 .titleCard{
-  position: absolute;
+  position: fixed;
   z-index: -1;
   width: 100%
   /* opacity: .70; */
@@ -8,8 +8,8 @@
 .area{
   z-index: -1;
   width: 100%;
-  height: 100vh;
-  position: absolute;
+  height: 100%;
+  position: fixed;
   filter: blur(3px);
   opacity: .8;
 }
