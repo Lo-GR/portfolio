@@ -1,4 +1,4 @@
-import './App.css';
+import '../styles/Global.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,7 +17,7 @@ function App() {
             <Home />
           </Route>
           <Route exact path="/aboutme">
-            <p>about</p>
+            <p className="Text">about</p>
           </Route>
           <Route exact path="/projects">
             <p>projects</p>
