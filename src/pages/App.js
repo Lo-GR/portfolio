@@ -4,6 +4,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import Home from './home/Home';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
             renders the first one that matches the current URL. */}
         <Switch>
           <Route exact path="/">
-            <p>home</p>
+            <Home />
           </Route>
           <Route exact path="/aboutme">
             <p>about</p>
