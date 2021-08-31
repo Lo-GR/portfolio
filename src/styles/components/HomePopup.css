@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 :root {
   --black: #000000;
   --white: #FFFFFF;
@@ -26,9 +25,8 @@
   border-right-color: lightgray;
   border-width: 4px;
   border-style: solid;
-  background-color: grey;
-  animation: roll .75s; 
-  animation-timing-function: ease;
+  background-color: var(--offWhite);
+  animation: roll .75s ease, enterHover 1.5s infinite; 
   position: relative;
 }
 
@@ -45,7 +43,6 @@
   -webkit-text-stroke-color: var(--harshContrast);
 }
 .pressableEnter h2{
-  font-family: 'Press Start 2P', cursive;
   -webkit-text-stroke-width: .5px;
   -webkit-text-stroke-color: var(--black);
   font-size: xx-large;
