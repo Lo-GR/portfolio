@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 .mainArea{
   text-align: center;
   display: flex;
@@ -16,6 +17,14 @@
   border-width: 4px;
   border-style: solid;
   background-color: grey;
+}
+.pressableEnter{
+  color: silver;
+}
+.pressableEnter h2{
+  font-family: 'Press Start 2P', cursive;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
 }
 
 /* .popupFrame[mounted='1']{
