@@ -1,5 +1,10 @@
 :root {
-  --test: red;
+  --black: #000000;
+  --white: #FFFFFF;
+  --offWhite: #E5E5E5;
+  --softHighlight: #ADB6C4;
+  --strongHightlight: #14213D;
+  --contrast: #FCA311;
 }
 
 .App {

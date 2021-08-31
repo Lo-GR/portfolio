@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+  --offWhite: #E5E5E5;
+  --softHighlight: #ADB6C4;
+  --strongHightlight: #14213D;
+  --contrast: #FCA311;
+}
 .mainArea{
   text-align: center;
   display: flex;
@@ -23,6 +31,12 @@
 }
 .pressableEnter{
   color: #E5E5E5;
+  padding: 5px;
+}
+.pressableEnter:hover{
+  animation: enterHover 2s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 .pressableEnter h2{
   font-family: 'Press Start 2P', cursive;
@@ -33,4 +47,51 @@
 @keyframes roll {
   0%   {left:100% }
   100% {left:0% }
+}
+@keyframes enterHover {
+  0% {
+    border-radius: 5px 5px 5px 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: var(--strongHightlight);
+    border-right-color: var(--strongHightlight);
+    border-bottom-color: var(--softHighlight);
+    border-left-color: var(--softHighlight);
+  }
+  25%{
+    border-radius: 5px 5px 5px 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: var(--softHighlight);
+    border-right-color: var(--strongHightlight);
+    border-bottom-color: var(--strongHightlight);
+    border-left-color: var(--softHighlight);
+  }
+  50% {
+    border-radius: 5px 5px 5px 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: var(--softHighlight);
+    border-right-color: var(--softHightlight);
+    border-bottom-color: var(--strongHightlight);
+    border-left-color: var(--strongHighlight);
+  }
+  75%{
+    border-radius: 5px 5px 5px 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: var(--strongHighlight);
+    border-right-color: var(--softHightlight);
+    border-bottom-color: var(--softHightlight);
+    border-left-color: var(--strongHighlight);
+  }
+  100%{
+    border-radius: 5px 5px 5px 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: var(--strongHightlight);
+    border-right-color: var(--strongHightlight);
+    border-bottom-color: var(--softHighlight);
+    border-left-color: var(--softHighlight);
+  }
 }
