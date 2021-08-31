@@ -17,22 +17,20 @@
   border-width: 4px;
   border-style: solid;
   background-color: grey;
+  animation: roll .75s; 
+  animation-timing-function: ease;
+  position: relative;
 }
 .pressableEnter{
-  color: silver;
+  color: #E5E5E5;
 }
 .pressableEnter h2{
   font-family: 'Press Start 2P', cursive;
   -webkit-text-stroke-width: .5px;
   -webkit-text-stroke-color: black;
+  font-size: xx-large;
 }
-
-/* .popupFrame[mounted='1']{
-  animation: roll .75s; 
-  animation-timing-function: ease;
-} */
-
 @keyframes roll {
-  0%   {left:500px }
-  100% {left:0px }
+  0%   {left:100% }
+  100% {left:0% }
 }
