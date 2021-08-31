@@ -1,10 +1,11 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import "../styles/components/HomePopup.css"
 
-export default function HomePopup() {
+export default function HomePopup({ setAppear }) {
   const [ enter, setEnter ] = useState(false)
   const handleEnter = () =>{
     setEnter(true);
+    setAppear(true);
   }
   return (
     <div>
