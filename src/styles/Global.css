@@ -3,8 +3,9 @@
   --white: #FFFFFF;
   --offWhite: #E5E5E5;
   --softHighlight: #ADB6C4;
-  --strongHightlight: #14213D;
-  --contrast: #FCA311;
+  --strongHighlight: #14213D;
+  --contrast: #CBDFBD;
+  --harshContrast: #FCA311;
 }
 
 .App {

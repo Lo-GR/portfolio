@@ -4,8 +4,9 @@
   --white: #FFFFFF;
   --offWhite: #E5E5E5;
   --softHighlight: #ADB6C4;
-  --strongHightlight: #14213D;
-  --contrast: #FCA311;
+  --strongHighlight: #14213D;
+  --contrast: #CBDFBD;
+  --harshContrast: #FCA311;
 }
 .mainArea{
   text-align: center;
@@ -30,19 +31,23 @@
   position: relative;
 }
 .pressableEnter{
-  color: #E5E5E5;
-  padding: 5px;
+  color: var(--offWhite);
+  padding: 10px;
 }
 .pressableEnter:hover{
-  animation: enterHover 2s; 
+  animation: enterHover 1.5s; 
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+}
+.pressableEnter:active h2{
+  -webkit-text-stroke-color: var(--harshContrast);
 }
 .pressableEnter h2{
   font-family: 'Press Start 2P', cursive;
   -webkit-text-stroke-width: .5px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: var(--black);
   font-size: xx-large;
+  text-shadow: var(--softHighlight)
 }
 @keyframes roll {
   0%   {left:100% }
@@ -51,47 +56,52 @@
 @keyframes enterHover {
   0% {
     border-radius: 5px 5px 5px 5px;
-    border-width: 2px;
+    border-width: 4px;
     border-style: solid;
-    border-top-color: var(--strongHightlight);
-    border-right-color: var(--strongHightlight);
+    border-top-color: var(--strongHighlight);
+    border-right-color: var(--strongHighlight);
     border-bottom-color: var(--softHighlight);
     border-left-color: var(--softHighlight);
+    box-shadow: 3px 3px 5px grey;
   }
   25%{
     border-radius: 5px 5px 5px 5px;
-    border-width: 2px;
+    border-width: 4px;
     border-style: solid;
     border-top-color: var(--softHighlight);
-    border-right-color: var(--strongHightlight);
-    border-bottom-color: var(--strongHightlight);
+    border-right-color: var(--strongHighlight);
+    border-bottom-color: var(--strongHighlight);
     border-left-color: var(--softHighlight);
+    box-shadow: 3px 3px 5px grey;
   }
   50% {
     border-radius: 5px 5px 5px 5px;
-    border-width: 2px;
+    border-width: 4px;
     border-style: solid;
     border-top-color: var(--softHighlight);
-    border-right-color: var(--softHightlight);
-    border-bottom-color: var(--strongHightlight);
+    border-right-color: var(--softHighlight);
+    border-bottom-color: var(--strongHighlight);
     border-left-color: var(--strongHighlight);
+    box-shadow: 3px 3px 5px grey;
   }
   75%{
     border-radius: 5px 5px 5px 5px;
-    border-width: 2px;
+    border-width: 4px;
     border-style: solid;
     border-top-color: var(--strongHighlight);
-    border-right-color: var(--softHightlight);
-    border-bottom-color: var(--softHightlight);
+    border-right-color: var(--softHighlight);
+    border-bottom-color: var(--softHighlight);
     border-left-color: var(--strongHighlight);
+    box-shadow: 3px 3px 5px grey;
   }
   100%{
     border-radius: 5px 5px 5px 5px;
-    border-width: 2px;
+    border-width: 4px;
     border-style: solid;
-    border-top-color: var(--strongHightlight);
-    border-right-color: var(--strongHightlight);
+    border-top-color: var(--strongHighlight);
+    border-right-color: var(--strongHighlight);
     border-bottom-color: var(--softHighlight);
     border-left-color: var(--softHighlight);
+    box-shadow: 3px 3px 5px grey;
   }
 }
