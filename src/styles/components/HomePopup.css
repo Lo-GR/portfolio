@@ -8,6 +8,7 @@
   --contrast: #CBDFBD;
   --harshContrast: #FCA311;
 }
+
 .mainArea{
   text-align: center;
   display: flex;
@@ -16,6 +17,7 @@
   min-height: 100vh;
   z-index: 1;
 }
+
 .popupFrame{
   width: 75%;
   height: auto;
@@ -29,6 +31,7 @@
   animation-timing-function: ease;
   position: relative;
 }
+
 .pressableEnter{
   color: var(--offWhite);
   padding: 10px;
@@ -48,10 +51,13 @@
   font-size: xx-large;
   text-shadow: var(--softHighlight)
 }
+
+/* Animations */
 @keyframes roll {
   0%   {left:100% }
   100% {left:0% }
 }
+
 @keyframes enterHover {
   0% {
     border-radius: 5px 5px 5px 5px;
