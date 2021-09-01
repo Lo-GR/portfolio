@@ -21,14 +21,11 @@
 .popupFrame{
   width: 75%;
   height: auto;
-  border-radius: 5px 5px 5px 5px;
-  border-left-color: lightgray;
-  border-right-color: lightgray;
   border-width: 4px;
   border-style: solid;
-  background-color: var(--offWhite);
   animation: roll .75s ease, enterHover 1.5s infinite; 
   position: relative;
+  background-color: var(--offWhite);
 }
 
 .pressableEnter{
@@ -36,6 +33,7 @@
   padding: 10px;
 }
 .pressableEnter:hover{
+  background-color: var(--white);
   animation: enterHover 1.5s; 
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;

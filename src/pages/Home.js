@@ -8,7 +8,7 @@ export default function Home({}) {
   const [appear, setAppear] = useState(false);
   return (
     <div>
-      <Background entered={appear} />
+      <Background />
       <HomePopup setAppear={setAppear}/>
       {appear ? <HomepageLinks /> : null}
     </div>
