@@ -1,0 +1,27 @@
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+  --offWhite: #E5E5E5;
+  --softHighlight: #ADB6C4;
+  --strongHighlight: #14213D;
+  --contrast: #CBDFBD;
+  --altContrast: #5BBA6F;
+  --harshContrast: #FCA311;
+}
+.homepageArea{
+  height: 100vh;
+}
+.backPart{
+  width: 50%;
+  height: 10vh;
+  background-color: black;
+  position: relative;
+  left: 25%;
+  right: 25%;
+}
+.frontPart{
+  width: 25%;
+  position: absolute;
+  left: 30%;
+  background-color: white;
+}
