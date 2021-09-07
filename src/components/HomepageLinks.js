@@ -6,7 +6,7 @@ export default function HomepageLinks() {
     <div className="homepageArea">
       <div className="backPart">
         <div className="frontPart">
-          <h2>test</h2>
+          <h2>&lt;/&gt;</h2>
         </div>
       </div>
     </div>
