@@ -12,16 +12,18 @@
   height: 100vh;
 }
 .backPart{
-  width: 50%;
-  height: 10vh;
+  width: 40%;
+  height: 12vh;
   background-color: black;
   position: relative;
   left: 25%;
   right: 25%;
+
 }
 .frontPart{
-  width: 25%;
-  position: absolute;
-  left: 30%;
+  width: 10%;
+  height: 18vh;
+  top: 50px;
+  position: relative;
   background-color: white;
 }
