@@ -18,12 +18,15 @@
   position: relative;
   left: 25%;
   right: 25%;
-
 }
 .frontPart{
-  width: 10%;
+  width: 20vh;
   height: 18vh;
-  top: 50px;
+  border-radius: 45%;
+  bottom: 3vh;
   position: relative;
   background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
