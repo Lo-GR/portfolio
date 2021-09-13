@@ -17,6 +17,7 @@ export default function HomepageLinks() {
           <div className="frontPart">
             <h2>ME</h2>
           </div>
+          <h2 className="homepageText">About Me</h2>
         </div>
       </div>
       <div className="linkArea">
@@ -24,6 +25,7 @@ export default function HomepageLinks() {
           <div className="frontPart">
             <h2>?!</h2>
           </div>
+          <h2 className="homepageText">Blog (coming soon)</h2>
         </div>
       </div>
     </div>
