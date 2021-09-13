@@ -35,6 +35,7 @@
 .pressableEnter{
   color: var(--offWhite);
   padding: 10px;
+  cursor: pointer;
 }
 .pressableEnter:hover{
   background-color: var(--white);
