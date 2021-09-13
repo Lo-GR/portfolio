@@ -46,7 +46,8 @@
 }
 .homepageText{
   color: var(--white);
-  
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 @keyframes selected {
