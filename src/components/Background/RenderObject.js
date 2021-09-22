@@ -11,6 +11,7 @@ export default function RenderObject({ position }) {
     <mesh 
       position={position}
       ref={mesh}
+      scale={2}
     >
       <octahedronGeometry args = {[1, 0]} />
       <meshStandardMaterial 
