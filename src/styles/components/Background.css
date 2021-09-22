@@ -10,7 +10,6 @@
   mix-blend-mode: exclusion;
 }
 
-/* .area[entered="1"]{
-  filter: blur(3px);
-  opacity: .8;
-} */
+.fiberCanvas{
+  mix-blend-mode: exclusion;
+}
