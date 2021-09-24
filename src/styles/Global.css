@@ -2,14 +2,14 @@
 :root {
   --black: #000000;
   --white: #FFFFFF;
-  --offWhite: #E5E5E5;
+  --offWhite: #FBFFFE;
   --softHighlight: #ADB6C4;
   --strongHighlight: #14213D;
   --contrast: #CBDFBD;
   --altContrast: #5BBA6F;
   --harshContrast: #FCA311;
+  --defaultReactBackground: #282c34;
 }
-
 .App h2{
   font-family: 'Press Start 2P', cursive;
 }

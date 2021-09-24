@@ -1,12 +1,13 @@
 :root {
   --black: #000000;
   --white: #FFFFFF;
-  --offWhite: #E5E5E5;
+  --offWhite: #FBFFFE;
   --softHighlight: #ADB6C4;
   --strongHighlight: #14213D;
   --contrast: #CBDFBD;
   --altContrast: #5BBA6F;
   --harshContrast: #FCA311;
+  --defaultReactBackground: #282c34;
 }
 
 .mainArea{
@@ -38,10 +39,10 @@
   cursor: pointer;
 }
 .pressableEnter:hover{
-  background-color: var(--white);
+  /* background-color: var(--white);
   animation: enterHover 1.5s; 
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; */
 }
 .pressableEnter:active h2{
   -webkit-text-stroke-color: var(--harshContrast);

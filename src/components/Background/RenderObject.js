@@ -18,7 +18,7 @@ export default function RenderObject({ position }) {
       <octahedronGeometry args = {[1, 0]} />
       <meshStandardMaterial 
         map={color}
-        metalness={.8}
+        metalness={.5}
         roughness={roughness}
         normalMap={normalMap}
       />

@@ -9,7 +9,7 @@ export default function HomepageLinks() {
         <div className="linkArea">
           <div className="backPart">
             <div className="frontPart">
-              <h2>&lt;/&gt;</h2>
+              <h2 className="homepageIcon">&lt;/&gt;</h2>
             </div>
             <h2 className="homepageText">Coding Projects (coming soon)</h2>
           </div>
@@ -19,7 +19,7 @@ export default function HomepageLinks() {
         <div className="linkArea">
           <div className="backPart">
             <div className="frontPart">
-              <h2>ME</h2>
+              <h2 className="homepageIcon">ME</h2>
             </div>
             <h2 className="homepageText">About Me (coming soon)</h2>
           </div>
@@ -28,7 +28,7 @@ export default function HomepageLinks() {
       <div className="linkArea">
         <div className="backPart">
           <div className="frontPart">
-            <h2>?!</h2>
+            <h2 className="homepageIcon">?!</h2>
           </div>
           <h2 className="homepageText">Blog (coming soon)</h2>
         </div>

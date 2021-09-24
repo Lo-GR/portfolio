@@ -1,12 +1,13 @@
 :root {
   --black: #000000;
   --white: #FFFFFF;
-  --offWhite: #E5E5E5;
+  --offWhite: #FBFFFE;
   --softHighlight: #ADB6C4;
   --strongHighlight: #14213D;
   --contrast: #CBDFBD;
   --altContrast: #5BBA6F;
   --harshContrast: #FCA311;
+  --defaultReactBackground: #282c34;
 }
 .homepageArea{
   height: 100vh;
@@ -19,10 +20,11 @@
 .backPart{
   width: 50%;
   height: 12vh;
-  background-color: black;
+  background-color: var(--strongHighlight);
   position: relative;
   left: 25%;
   right: 25%;
+  border-radius: 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,9 +32,12 @@
   flex-wrap: nowrap;
 }
 .frontPart{
-  width: 20vh;
-  height: 18vh;
-  border-radius: 45%;
+  width: 12vh;
+  height: 12vh;
+  transform: rotate(45deg);
+  border-radius: 5%;
+  outline: 2px solid var(--harshContrast);
+  outline-offset: 10px;
   /* bottom: 3vh; */
   position: relative;
   background-color: white;
@@ -50,15 +55,17 @@
   margin-right: 5%;
   margin-left: 5%;
 }
-
+.homepageIcon {
+  transform: rotate(-45deg);
+}
 @keyframes selected {
   0%{
-    transform:rotate(0deg) scale(1,1);
+    transform:rotate(45deg) scale(1,1);
   }
   50%{
-    transform:rotate(360deg) scale(1.5, 1.5);
+    transform:rotate(405deg) scale(1.5, 1.5);
   }
   100%{
-    transform: rotate(720deg) scale(1,1);
+    transform: rotate(765deg) scale(1,1);
   }
 }
