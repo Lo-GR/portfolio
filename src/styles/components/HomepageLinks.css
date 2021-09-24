@@ -24,12 +24,23 @@
   position: relative;
   left: 25%;
   right: 25%;
-  border-radius: 5%;
+  border-radius: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
   flex-wrap: nowrap;
+  background-size: 200% 100%;
+  background-image: linear-gradient(to right, var(--strongHighlight) 50%, var(--altContrast) 50%);
+  -webkit-transition: background-position .5s;
+  -moz-transition: background-position .5s;
+  transition: background-position .5s;
+}
+.backPart:hover {
+  background-position: -100% 0%;
+}
+.backPart:active{
+  background-image: var(--altContrast);
 }
 .frontPart{
   width: 12vh;
@@ -50,6 +61,10 @@
   animation: selected 1s ease;
   animation-iteration-count: initial;
 }
+/* .linkArea:active > .backPart{
+  animation: clicked 1s ease;
+  animation-iteration-count: initial;
+} */
 .homepageText{
   color: var(--white);
   margin-right: 5%;
@@ -68,4 +83,32 @@
   100%{
     transform: rotate(765deg) scale(1,1);
   }
+}
+
+/* @keyframes clicked {
+  0%{
+    background-image: linear-gradient(
+      to right,
+      var(--altContrast) 0%,
+      var(--strongHighlight) 100%);
+  }
+  100%{
+    background-image: linear-gradient(
+      to right,
+      var(--altContrast) 100%,
+      var(--strongHighlight) 0%);
+  }
+} */
+
+.box {
+  width: 200px; height: 100px;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, red 50%, black 50%);
+  -webkit-transition: background-position 1s;
+  -moz-transition: background-position 1s;
+  transition: background-position 1s;
+}
+
+.box:hover {
+  background-position: 0 -100%;
 }
