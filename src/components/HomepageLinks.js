@@ -11,7 +11,7 @@ export default function HomepageLinks() {
             <div className="frontPart">
               <h2 className="homepageIcon">&lt;/&gt;</h2>
             </div>
-            <h2 className="homepageText">Coding Projects (coming soon)</h2>
+            <h2 className="homepageText">Projects (coming soon)</h2>
           </div>
         </div>
       {/* </Link> */}

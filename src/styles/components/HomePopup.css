@@ -34,12 +34,23 @@
 .popupContents{
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 .contentText{
-  flex: 2;
+  flex: 3;
+}
+.briefAboutMe{
+  justify-content: space-around;
+  align-items: flex-start;
+  display: flex;
+}
+.briefChild{
+  border-radius: 5px 5px 5px 5px;
+  border-width: 2px;
+  border-style: solid;
+  margin: 10px;
 }
 .image{
   flex: 1;
@@ -51,12 +62,6 @@
   color: var(--offWhite);
   padding: 10px;
   cursor: pointer;
-}
-.pressableEnter:hover{
-  /* background-color: var(--white);
-  animation: enterHover 1.5s; 
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out; */
 }
 .pressableEnter:active h2{
   -webkit-text-stroke-color: var(--harshContrast);
