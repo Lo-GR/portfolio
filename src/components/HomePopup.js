@@ -5,7 +5,7 @@ import Envelope from "../assets/svg/envelope-f.svg"
 import GitHub from "../assets/img/GitHub-Mark-64px.png"
 import LinkedIn from "../assets/img/LI-In-Bug.png"
 import LeetCode from "../assets/img/leetcode.png"
-import Time from "../assets/svg/chevron-circle-down-left.svg"
+// import Time from "../assets/svg/chevron-circle-down-left.svg"
 
 
 export default function HomePopup({ setAppear }) {
@@ -27,23 +27,23 @@ export default function HomePopup({ setAppear }) {
             <h3>Me at a glance...</h3>
             <div className="popupContents"> 
               <div className="images">
-                <img className="portrait" src={Portrait} />
+                <img className="portrait" src={Portrait} style={{animationDuration: "2s"}}/>
                 <div className="iconLinks">
                   <a href="mailto:logan.roth.g@gmail.com" >
-                    <img className="icons" src={Envelope} />
+                    <img className="icons" src={Envelope} style={{animationDuration: "2.3s"}}/>
                   </a>
                   <a href="https://github.com/Lo-GR" target="_blank">
-                    <img className="icons" src={GitHub} />
+                    <img className="icons" src={GitHub} style={{animationDuration: "2.6s"}}/>
                   </a>
                   <a href="https://linkedin.com/in/lo-gr" target="_blank">
-                    <img className="icons" src={LinkedIn} />
+                    <img className="icons" src={LinkedIn} style={{animationDuration: "2.9s"}}/>
                   </a>
                   <a href="https://leetcode.com/Lo-GR/" target="_blank">
-                    <img className="icons" src={LeetCode} />
+                    <img className="icons" src={LeetCode} style={{animationDuration: "3.2s"}}/>
                   </a>
                 </div>
               </div>
-              <div className="contentText">
+              <div className="contentText" style={{animationDuration: "2s"}}>
                 <div className="briefAboutMe">
                   <div className="briefChild">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel lectus vehicula, placerat mauris nec, congue nisi. Donec pretium orci at lacus sodales mollis. Aliquam erat volutpat. Mauris viverra semper nunc, at pharetra odio laoreet eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi efficitur, diam sit amet ultrices scelerisque, quam enim eleifend ipsum, sit amet sollicitudin dui metus at turpis. Suspendisse potenti. Aenean varius imperdiet malesuada. Quisque ante ante, ultrices sit amet orci vitae, ornare mollis lectus. Aliquam nulla turpis, imperdiet convallis est ut, euismod scelerisque eros. Nullam dapibus scelerisque ultrices. Nulla bibendum risus id mollis semper. Nam vulputate quam semper odio ullamcorper cursus. Nunc porta lectus a erat malesuada, at ornare metus mattis.</p>
@@ -55,6 +55,7 @@ export default function HomePopup({ setAppear }) {
                 </div>
               </div>
             </div>
+
           </div>
         }
       </div>

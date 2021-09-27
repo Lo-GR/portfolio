@@ -40,6 +40,7 @@
 }
 .contentText{
   flex: 2;
+  animation: fadeIn ease;
 }
 .briefAboutMe{
   justify-content: space-around;
@@ -61,12 +62,14 @@
 .icons{
   width: 64px;
   margin: 2px;
+  animation: fadeIn ease;
 }
 .iconLinks{
   margin-top: 10px;
 }
 .portrait{
   width: 256px;
+  animation: fadeIn ease;
 }
 .pressableEnter{
   color: var(--offWhite);
@@ -134,5 +137,17 @@
     border-right-color: var(--strongHighlight);
     border-bottom-color: var(--softHighlight);
     border-left-color: var(--softHighlight);
+  }
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0
+  }
+  25%{
+    opacity: 0
+  }
+  100%{
+    opacity: 1
   }
 }
