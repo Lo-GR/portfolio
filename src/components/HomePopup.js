@@ -5,6 +5,7 @@ import Envelope from "../assets/svg/envelope-f.svg"
 import GitHub from "../assets/img/GitHub-Mark-64px.png"
 import LinkedIn from "../assets/img/LI-In-Bug.png"
 import LeetCode from "../assets/img/leetcode.png"
+import Time from "../assets/svg/chevron-circle-down-left.svg"
 
 
 export default function HomePopup({ setAppear }) {
@@ -23,6 +24,7 @@ export default function HomePopup({ setAppear }) {
         :
           <div className="popupFrame" >
             <h2>WELCOME</h2>
+            <h3>Me at a glance...</h3>
             <div className="popupContents"> 
               <div className="images">
                 <img className="portrait" src={Portrait} />
@@ -42,14 +44,14 @@ export default function HomePopup({ setAppear }) {
                 </div>
               </div>
               <div className="contentText">
-                <h3>Me at a glance-</h3>
                 <div className="briefAboutMe">
                   <div className="briefChild">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel lectus vehicula, placerat mauris nec, congue nisi. Donec pretium orci at lacus sodales mollis. Aliquam erat volutpat. Mauris viverra semper nunc, at pharetra odio laoreet eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi efficitur, diam sit amet ultrices scelerisque, quam enim eleifend ipsum, sit amet sollicitudin dui metus at turpis. Suspendisse potenti. Aenean varius imperdiet malesuada. Quisque ante ante, ultrices sit amet orci vitae, ornare mollis lectus. Aliquam nulla turpis, imperdiet convallis est ut, euismod scelerisque eros. Nullam dapibus scelerisque ultrices. Nulla bibendum risus id mollis semper. Nam vulputate quam semper odio ullamcorper cursus. Nunc porta lectus a erat malesuada, at ornare metus mattis.</p>
                   </div>
-                  <div className="briefChild">
-                    <p>Etc</p>
-                  </div>
+                  {/* <div className="briefChild">
+                  Will add this back later when wanting to add additional stats
+                  <img className="icons" src={Time} />
+                  </div> */}
                 </div>
               </div>
             </div>

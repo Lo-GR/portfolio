@@ -39,7 +39,7 @@
   flex-direction: row;
 }
 .contentText{
-  flex: 3;
+  flex: 2;
 }
 .briefAboutMe{
   justify-content: space-around;
@@ -47,9 +47,9 @@
   display: flex;
 }
 .briefChild{
-  border-radius: 5px 5px 5px 5px;
-  border-width: 2px;
-  border-style: solid;
+  background-color: var(--contrast);
+  border-radius: 5px;
+  padding: 10px;
   margin: 10px;
 }
 .images{
@@ -66,7 +66,7 @@
   margin-top: 10px;
 }
 .portrait{
-  width: 75%;
+  width: 256px;
 }
 .pressableEnter{
   color: var(--offWhite);
