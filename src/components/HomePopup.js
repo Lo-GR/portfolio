@@ -1,6 +1,10 @@
 import React, {useState} from 'react'
 import "../styles/components/HomePopup.css"
 import Portrait from "../assets/img/stock-guy.jpg"
+import Envelope from "../assets/svg/envelope-f.svg"
+import GitHub from "../assets/img/GitHub-Mark-64px.png"
+import LinkedIn from "../assets/img/LI-In-Bug.png"
+import LeetCode from "../assets/img/leetcode.png"
 
 
 export default function HomePopup({ setAppear }) {
@@ -20,8 +24,22 @@ export default function HomePopup({ setAppear }) {
           <div className="popupFrame" >
             <h2>WELCOME</h2>
             <div className="popupContents"> 
-              <div className="image">
+              <div className="images">
                 <img className="portrait" src={Portrait} />
+                <div className="iconLinks">
+                  <a href="mailto:logan.roth.g@gmail.com" >
+                    <img className="icons" src={Envelope} />
+                  </a>
+                  <a href="https://github.com/Lo-GR" target="_blank">
+                    <img className="icons" src={GitHub} />
+                  </a>
+                  <a href="https://linkedin.com/in/lo-gr" target="_blank">
+                    <img className="icons" src={LinkedIn} />
+                  </a>
+                  <a href="https://leetcode.com/Lo-GR/" target="_blank">
+                    <img className="icons" src={LeetCode} />
+                  </a>
+                </div>
               </div>
               <div className="contentText">
                 <h3>Me at a glance-</h3>
