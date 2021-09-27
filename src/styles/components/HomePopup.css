@@ -85,6 +85,9 @@
   font-size: xx-large;
   text-shadow: var(--softHighlight)
 }
+.more{
+  animation: fadeIn ease;
+}
 
 /* Animations */
 @keyframes roll {

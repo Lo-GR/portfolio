@@ -5,7 +5,7 @@ import Envelope from "../assets/svg/envelope-f.svg"
 import GitHub from "../assets/img/GitHub-Mark-64px.png"
 import LinkedIn from "../assets/img/LI-In-Bug.png"
 import LeetCode from "../assets/img/leetcode.png"
-// import Time from "../assets/svg/chevron-circle-down-left.svg"
+import Arrow from "../assets/svg/arrow-down.svg"
 
 
 export default function HomePopup({ setAppear }) {
@@ -55,7 +55,10 @@ export default function HomePopup({ setAppear }) {
                 </div>
               </div>
             </div>
-
+            <div className="more" style={{animationDuration: "2s"}}>
+              <h3>Test</h3>
+              <img className="icons" src={Arrow} />
+            </div>
           </div>
         }
       </div>
