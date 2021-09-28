@@ -63,7 +63,7 @@ export default function HomePopup({ setAppear }) {
             <div className="more" style={{animationDuration: "4.2s"}}>
               <h3>Scroll down for links to additional information on my background, my projects and my personal blog!</h3>
               <p></p>
-              <img className="icons" src={Arrow} />
+              <img src={Arrow} />
             </div>
           </div>
         }
