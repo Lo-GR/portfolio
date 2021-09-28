@@ -30,6 +30,8 @@
   animation: roll .75s ease, enterHover 1.5s infinite; 
   position: relative;
   background-color: var(--offWhite);
+  flex-direction: column;
+  display: flex
 }
 .popupContents{
   display: flex;
@@ -37,6 +39,9 @@
   align-items: flex-start;
   flex-wrap: wrap;
   flex-direction: row;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--softHighlight);
 }
 .contentText{
   flex: 2;
@@ -63,6 +68,7 @@
   width: 64px;
   margin: 2px;
   animation: fadeIn ease;
+  mix-blend-mode: luminosity;
 }
 .iconLinks{
   margin-top: 10px;
@@ -70,6 +76,7 @@
 .portrait{
   width: 256px;
   animation: fadeIn ease;
+  border-radius: 5px;
 }
 .pressableEnter{
   color: var(--offWhite);
@@ -87,6 +94,11 @@
 }
 .more{
   animation: fadeIn ease;
+  background-color: var(--harshContrast);
+  border-radius: 5px;
+  width: 60%;
+  align-self: center;
+  margin: 10px;
 }
 
 /* Animations */
