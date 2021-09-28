@@ -11,7 +11,13 @@ export default function AboutPage() {
       <div className="clickHere" onClick={handleClick}>
         <h2 className="mark">?</h2>
       </div>
-      {clicked ? <div> Big Testy</div> : null}
+      {clicked ? 
+        <div className="popUp"> 
+          Big Testy
+        </div> 
+      : 
+        null
+      }
     </div>
   )
 }

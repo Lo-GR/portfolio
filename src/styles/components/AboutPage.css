@@ -17,14 +17,33 @@
   border-radius: 50px;
   width: 50px;
   height: 50px;
-  border: 2px solid var(--harshContrast);
+  border: 2px solid var(--black);
   animation: wiggle 2s infinite;
   background-color: var(--white);
+  cursor: pointer;
 }
 
 .mark{
   color: var(--altContrast);
 }
+
+.popUp {
+  border-radius: 5px 5px 5px 5px;
+  border-width: 2px;
+  border-style: solid;
+  z-index: 20;
+  background-color: var(--offWhite);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+  height: 300px;
+  margin-top: -100px;
+  animation: border 1.5s infinite, enter .5s;
+}
+
+  /* Animations */
 
 @keyframes wiggle {
   0%{
@@ -47,5 +66,64 @@
   }
   100%{
     transform: rotate(0deg);
+  }
+}
+
+@keyframes border {
+  0% {
+    border-radius: 5px 5px 5px 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: var(--strongHighlight);
+    border-right-color: var(--strongHighlight);
+    border-bottom-color: var(--softHighlight);
+    border-left-color: var(--softHighlight);
+  }
+  25%{
+    border-radius: 5px 5px 5px 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: var(--softHighlight);
+    border-right-color: var(--strongHighlight);
+    border-bottom-color: var(--strongHighlight);
+    border-left-color: var(--softHighlight);
+  }
+  50% {
+    border-radius: 5px 5px 5px 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: var(--softHighlight);
+    border-right-color: var(--softHighlight);
+    border-bottom-color: var(--strongHighlight);
+    border-left-color: var(--strongHighlight);
+  }
+  75%{
+    border-radius: 5px 5px 5px 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: var(--strongHighlight);
+    border-right-color: var(--softHighlight);
+    border-bottom-color: var(--softHighlight);
+    border-left-color: var(--strongHighlight);
+  }
+  100%{
+    border-radius: 5px 5px 5px 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: var(--strongHighlight);
+    border-right-color: var(--strongHighlight);
+    border-bottom-color: var(--softHighlight);
+    border-left-color: var(--softHighlight);
+  }
+}
+
+@keyframes enter {
+  0%{
+    top: 100%;
+    /* position: relative; */
+  }
+  100%{
+    top: 50%;
+    /* position: relative; */
   }
 }
