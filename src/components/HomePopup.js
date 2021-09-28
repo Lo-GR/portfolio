@@ -5,7 +5,7 @@ import Envelope from "../assets/svg/envelope-f.svg"
 import GitHub from "../assets/img/GitHub-Mark-64px.png"
 import LinkedIn from "../assets/img/LI-In-Bug.png"
 import LeetCode from "../assets/img/leetcode.png"
-import Arrow from "../assets/svg/arrow-down.svg"
+import Arrow from "../assets/svg/chevrons-down.svg"
 
 
 export default function HomePopup({ setAppear }) {
@@ -43,7 +43,7 @@ export default function HomePopup({ setAppear }) {
                   </a>
                 </div>
               </div>
-              <div className="contentText" style={{animationDuration: "3s"}}>
+              <div className="contentText" style={{animationDuration: "3.5s"}}>
                 <div className="briefAboutMe">
                   <div className="briefChild">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel lectus vehicula, placerat mauris nec, congue nisi. Donec pretium orci at lacus sodales mollis. Aliquam erat volutpat. Mauris viverra semper nunc, at pharetra odio laoreet eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi efficitur, diam sit amet ultrices scelerisque, quam enim eleifend ipsum, sit amet sollicitudin dui metus at turpis. Suspendisse potenti. Aenean varius imperdiet malesuada. Quisque ante ante, ultrices sit amet orci vitae, ornare mollis lectus. Aliquam nulla turpis, imperdiet convallis est ut, euismod scelerisque eros. Nullam dapibus scelerisque ultrices. Nulla bibendum risus id mollis semper. Nam vulputate quam semper odio ullamcorper cursus. Nunc porta lectus a erat malesuada, at ornare metus mattis.</p>
@@ -56,7 +56,7 @@ export default function HomePopup({ setAppear }) {
               </div>
             </div>
             <div className="more" style={{animationDuration: "3.9s"}}>
-              <h3>Scroll down for links to additional information on myself, my projects and my personal blog!</h3>
+              <h3>Scroll down for links to additional information on my background, my projects and my personal blog!</h3>
               <p></p>
               <img className="icons" src={Arrow} />
             </div>
