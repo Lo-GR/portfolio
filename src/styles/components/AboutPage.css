@@ -1,0 +1,51 @@
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+  --offWhite: #FBFFFE;
+  --softHighlight: #ADB6C4;
+  --strongHighlight: #14213D;
+  --contrast: #CBDFBD;
+  --altContrast: #5BBA6F;
+  --harshContrast: #FCA311;
+  --defaultReactBackground: #282c34;
+}
+
+.clickHere{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--harshContrast);
+  animation: wiggle 2s infinite;
+  background-color: var(--white);
+}
+
+.mark{
+  color: var(--altContrast);
+}
+
+@keyframes wiggle {
+  0%{
+    transform: rotate(0deg);
+  }
+  10%{
+    transform: rotate(20deg)
+  }
+  20%{
+    transform: rotate(-20deg)
+  }
+  30%{
+    transform: rotate(10deg)
+  }
+  40%{
+    transform: rotate(-10deg)
+  }
+  50%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}

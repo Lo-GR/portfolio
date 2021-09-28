@@ -92,6 +92,13 @@
   font-size: xx-large;
   text-shadow: var(--softHighlight)
 }
+.about{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 10px;
+  animation: fadeIn ease;
+}
 .more{
   animation: fadeIn ease;
   background-color: var(--harshContrast);
@@ -100,6 +107,7 @@
   align-self: center;
   margin: 10px;
 }
+
 
 /* Animations */
 @keyframes roll {

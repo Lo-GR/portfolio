@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import "../styles/components/HomePopup.css"
+import AboutPage from "../components/shared/AboutPage"
 import Portrait from "../assets/img/stock-guy.jpg"
 import Envelope from "../assets/svg/envelope-f.svg"
 import GitHub from "../assets/img/GitHub-Mark-64px.png"
@@ -55,7 +56,11 @@ export default function HomePopup({ setAppear }) {
                 </div>
               </div>
             </div>
-            <div className="more" style={{animationDuration: "3.9s"}}>
+            <div className="about" style={{animationDuration: "3.9s"}} >
+              <AboutPage /> 
+              <p style={{marginLeft: "5px"}}>Click this icon to learn more about this site</p>
+            </div>
+            <div className="more" style={{animationDuration: "4.2s"}}>
               <h3>Scroll down for links to additional information on my background, my projects and my personal blog!</h3>
               <p></p>
               <img className="icons" src={Arrow} />
