@@ -33,6 +33,7 @@
   left: 85%;
   width: 45px;
   z-index: 21;
+  cursor: pointer;
 }
 
 .aboutText{
