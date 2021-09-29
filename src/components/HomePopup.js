@@ -15,6 +15,11 @@ export default function HomePopup({ setAppear }) {
     setEnter(true);
     setAppear(true);
   }
+  const aboutText = {
+    title: "About this website",
+    description: "I built this website with the intention to show off several skills I have developed. Each page will include the dancing question mark icon with a description of the underlying tech behind how that page was made. The background is a render object powered by WebGL through Three.js",
+    tech: "React |  Three.js | React Three Fiber | JavaScript"
+  }
   return (
     <div>
       <div className="mainArea" >
@@ -57,7 +62,7 @@ export default function HomePopup({ setAppear }) {
               </div>
             </div>
             <div className="about" style={{animationDuration: "3.9s"}} >
-              <AboutPage /> 
+              <AboutPage title={aboutText.title} description={aboutText.description} tech={aboutText.tech}/> 
               <p style={{marginLeft: "5px"}}>Click this icon to learn more about this site</p>
             </div>
             <div className="more" style={{animationDuration: "4.2s"}}>

@@ -27,6 +27,20 @@
   color: var(--altContrast);
 }
 
+.exit{
+  position: absolute;
+  bottom: 85%;
+  left: 85%;
+  width: 45px;
+  z-index: 21;
+}
+
+.aboutText{
+  background-color: var(--defaultReactBackground);
+  color: var(--white);
+  padding: 5px;
+}
+
 .popUp {
   border-radius: 5px 5px 5px 5px;
   border-width: 2px;
@@ -39,10 +53,23 @@
   width: 400px;
   margin-left: -200px;
   height: 300px;
-  margin-top: -100px;
+  margin-top: -150px;
   animation: border 1.5s infinite, enter .5s;
 }
 
+@media only screen and (max-width: 400px) {
+  .popUp {
+    width: 200px;
+    margin-left: -100px;
+    height: 500px;
+    margin-top: -250px;
+    padding: 20px;
+  }
+  .exit{
+    bottom: 92%;
+    left: 77%;
+  }
+}
   /* Animations */
 
 @keyframes wiggle {
