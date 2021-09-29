@@ -25,9 +25,8 @@
   position: relative;
   left: 25%;
   right: 25%;
-  border-bottom-left-radius: 10%;
-  border-top-left-radius: 10%;
   display: flex;
+  border-radius: 5%;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
@@ -70,37 +69,11 @@
 .homepageText{
   color: var(--white);
   margin-right: 5%;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 .homepageIcon {
   transform: rotate(-45deg);
 }
-@keyframes selected {
-  0%{
-    transform:rotate(45deg) scale(1,1);
-  }
-  50%{
-    transform:rotate(405deg) scale(1.5, 1.5);
-  }
-  100%{
-    transform: rotate(765deg) scale(1,1);
-  }
-}
-
-/* @keyframes clicked {
-  0%{
-    background-image: linear-gradient(
-      to right,
-      var(--altContrast) 0%,
-      var(--strongHighlight) 100%);
-  }
-  100%{
-    background-image: linear-gradient(
-      to right,
-      var(--altContrast) 100%,
-      var(--strongHighlight) 0%);
-  }
-} */
 
 .box {
   width: 200px; height: 100px;
@@ -113,4 +86,27 @@
 
 .box:hover {
   background-position: 0 -100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .backPart{
+    flex-direction: column;
+    height: 40vh;
+    width: 60%;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+}
+
+/* Animations */
+@keyframes selected {
+  0%{
+    transform:rotate(45deg) scale(1,1);
+  }
+  50%{
+    transform:rotate(405deg) scale(1.5, 1.5);
+  }
+  100%{
+    transform: rotate(765deg) scale(1,1);
+  }
 }
