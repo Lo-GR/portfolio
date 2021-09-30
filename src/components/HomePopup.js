@@ -30,7 +30,7 @@ export default function HomePopup({ setAppear }) {
         :
           <div className="popupFrame" >
             <h2>WELCOME</h2>
-            <h3>Me at a glance...</h3>
+            <h3>Hi! I'm Logan...</h3>
             <div className="popupContents"> 
               <div className="images">
                 <img className="portrait" src={Portrait} style={{animationDuration: "2s"}}/>
@@ -52,7 +52,26 @@ export default function HomePopup({ setAppear }) {
               <div className="contentText" style={{animationDuration: "3.5s"}}>
                 <div className="briefAboutMe">
                   <div className="briefChild">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel lectus vehicula, placerat mauris nec, congue nisi. Donec pretium orci at lacus sodales mollis. Aliquam erat volutpat. Mauris viverra semper nunc, at pharetra odio laoreet eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi efficitur, diam sit amet ultrices scelerisque, quam enim eleifend ipsum, sit amet sollicitudin dui metus at turpis. Suspendisse potenti. Aenean varius imperdiet malesuada. Quisque ante ante, ultrices sit amet orci vitae, ornare mollis lectus. Aliquam nulla turpis, imperdiet convallis est ut, euismod scelerisque eros. Nullam dapibus scelerisque ultrices. Nulla bibendum risus id mollis semper. Nam vulputate quam semper odio ullamcorper cursus. Nunc porta lectus a erat malesuada, at ornare metus mattis.</p>
+                    <h3>Brief About Me</h3>
+                    <div className="sectionDivider" />
+                    <p>I am a graduate from <a href="https://www.epicodus.com/" target="_blank"><b>Epicodus</b></a> web development school. I'm a native Washingtonian living in Redmond. I have a background in business, customer service and communication. I graduated from South Dakota State University (long story) with a Bachelor of Science in Entrepreneurial Studies and Marketing. I'm sure if you're here, you're likely a recruiter, and likely busy. So here's a quick rundown of my skills</p>
+                    <h3>Tech I've Worked With</h3>
+                    <div className="sectionDivider" />
+                    <div className="skillsTechArea">
+                      <div className="skillsTech">JavaScript</div>
+                      <div className="skillsTech">C#</div>
+                      <div className="skillsTech">HTML5</div>
+                      <div className="skillsTech">CSS3</div>
+                      <div className="skillsTech">React</div>
+                      <div className="skillsTech">React Native</div>
+                      <div className="skillsTech">ASP.NET 5</div>
+                      <div className="skillsTech">Firebase</div>
+                      <div className="skillsTech">AWS</div>
+                      <div className="skillsTech">Node.js</div>
+                      <div className="skillsTech">SQL</div>
+                      <div className="skillsTech">NPM</div>
+                      <div className="skillsTech">Three.js</div>
+                    </div>
                   </div>
                   {/* <div className="briefChild">
                   Will add this back later when wanting to add additional stats
