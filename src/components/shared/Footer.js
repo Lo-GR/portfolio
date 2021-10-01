@@ -1,5 +1,6 @@
 import React from 'react'
 import "../../styles/components/Footer.css";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -10,10 +11,22 @@ export default function Footer() {
           <p>Logan Roth</p>
           <p>Redmond, WA</p>
         </div>
+        <div className="siteLinks">
+          <Link to="/" style={{color: 'inherit' }}>
+            <p>Home</p>
+          </Link>
+          <Link to="/projects" style={{color: 'inherit' }}>
+            <p>Projects</p>
+          </Link>
+          <Link to="/aboutme" style={{color: 'inherit' }}>
+            <p>About Me</p>
+          </Link>
+          <p>Blog</p>
+        </div>
         <div className="additionalLinks">
-          <p>Lo-GR</p>
-          <p>Logan Roth</p>
-          <p>Redmond, WA</p>
+          <a href="https://github.com/Lo-GR" target="_blank"><p>GitHub</p> </a>
+          <a href="https://linkedin.com/in/lo-gr" target="_blank"><p>LinkedIn</p></a>
+          <a href="https://leetcode.com/Lo-GR/" target="_blank"><p>LeetCode</p></a>
         </div>
       </div>
       <div className="sectionDiver" />
