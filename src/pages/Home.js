@@ -3,6 +3,7 @@ import Background from '../components/Background/Background'
 import HomePopup from '../components/HomePopup'
 import HomepageLinks from '../components/HomepageLinks'
 import "../styles/pages/Home.css"
+import Footer from '../components/shared/Footer'
 
 export default function Home({}) {
   const [appear, setAppear] = useState(false);
@@ -10,7 +11,13 @@ export default function Home({}) {
     <div>
       <Background animatedBackground={true}/>
       <HomePopup setAppear={setAppear}/>
-      {appear ? <HomepageLinks /> : null}
+      {appear ? 
+        <div>
+          <HomepageLinks />
+          <Footer />
+        </div>
+      : 
+        null}
     </div>
   )
 }
