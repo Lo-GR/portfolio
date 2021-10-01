@@ -29,6 +29,12 @@
   flex-wrap: wrap;
   flex-direction: row;
 }
+.sectionDiver{
+  background-image: linear-gradient( to left, var(--altContrast), var(--harshContrast), var(--altContrast));
+  width: 80%;
+  height: 1px;
+  margin-bottom: 5px;
+}
 @media only screen and (max-width: 700px) {
   .footerContent{
     flex-direction: column;
