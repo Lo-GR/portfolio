@@ -17,7 +17,15 @@
   align-items: center;
   background-color: var(--defaultReactBackground);
   margin-bottom: 0px;
+  width: 100%;
 }
-.footerArea p{
+.footerArea p, .footerArea a{
   color: var(--offWhite)
+}
+.footerContent{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
 }

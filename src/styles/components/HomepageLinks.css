@@ -10,8 +10,8 @@
   --defaultReactBackground: #282c34;
 }
 .homepageArea{
-  height: 100vh;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .linkArea{
   width: 100%;
