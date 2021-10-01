@@ -60,6 +60,7 @@ export default function HomePopup({ setAppear }) {
                     <div className="skillsTechArea">
                       <div className="skillsTech">JavaScript</div>
                       <div className="skillsTech">C#</div>
+                      <div className="skillsTech">Java</div>
                       <div className="skillsTech">HTML5</div>
                       <div className="skillsTech">CSS3</div>
                       <div className="skillsTech">React</div>
@@ -71,6 +72,17 @@ export default function HomePopup({ setAppear }) {
                       <div className="skillsTech">SQL</div>
                       <div className="skillsTech">NPM</div>
                       <div className="skillsTech">Three.js</div>
+                    </div>
+                    <h3>Soft Skills</h3>
+                    <div className="sectionDivider" />
+                    <div className="skillsTechArea">
+                      <div className="skillsTech">Professional Communication</div>
+                      <div className="skillsTech">Team Oriented</div>
+                      <div className="skillsTech">Growth Mindset</div>
+                      <div className="skillsTech">Adaptable</div>
+                      <div className="skillsTech">Servant Leadership</div>
+                      <div className="skillsTech">Tech Passionate</div>
+                      <div className="skillsTech">DEI Conscious</div>
                     </div>
                   </div>
                   {/* <div className="briefChild">
@@ -86,7 +98,7 @@ export default function HomePopup({ setAppear }) {
             </div>
             <div className="more" style={{animationDuration: "4.2s"}}>
               <h3>Scroll down for links to additional information on my background, my projects and my personal blog!</h3>
-              <p></p>
+              <p>(Note: Some links may not be active, this site is a WIP)</p>
               <img src={Arrow} />
             </div>
           </div>
