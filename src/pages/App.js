@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './Home';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
             <p className="Text">about</p>
           </Route>
           <Route exact path="/projects">
-            <p>projects</p>
+            <Projects />
           </Route>
         </Switch>
       </Router>
