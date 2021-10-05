@@ -12,6 +12,12 @@
 
 .projectsContentArea{
   background-color: var(--offWhite);
-  height: 700px;
+  height: 750px;
   margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.projectsContentArea p{
+  margin-top: 100px;
 }
