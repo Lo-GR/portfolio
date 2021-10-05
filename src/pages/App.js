@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Home from './Home';
 import Projects from './Projects';
+import AboutMe from "./AboutMe"
 import ScrollToTop from '../components/shared/ScrollToTop';
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
             <Home />
           </Route>
           <Route exact path="/aboutme">
-            <p className="Text">about</p>
+            <AboutMe />
           </Route>
           <Route exact path="/projects">
             <Projects />
