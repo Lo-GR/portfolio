@@ -7,7 +7,7 @@ export default function AboutMe() {
   return (
     <div>
       <Header />
-      <ProjectsContent />
+      <AboutMeContent />
       <Footer />
     </div>
   )

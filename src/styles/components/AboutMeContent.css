@@ -10,7 +10,7 @@
   --defaultReactBackground: #282c34;
 }
 
-.projectsContentArea{
+.aboutContentArea{
   background-color: var(--offWhite);
   height: 750px;
   margin-top: 0px;
@@ -18,6 +18,6 @@
   justify-content: center;
   align-content: center;
 }
-.projectsContentArea p{
+.aboutContentArea p{
   margin-top: 100px;
 }
