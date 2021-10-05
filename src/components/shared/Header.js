@@ -23,13 +23,17 @@ export default function Header({}) {
           <div className="divide"/>
         </div>
         <div className="linkBox">
-          <h3>Projects</h3>
+          <Link to="/projects" style={{ textDecoration: 'inherit', color: 'inherit' }}>
+            <h3>Projects</h3>
+          </Link>
         </div>
         <div className="headerDivider">
           <div className="divide"/>
         </div>
         <div className="linkBox">
-          <h3>About Me</h3>
+        <Link to="/aboutme" style={{ textDecoration: 'inherit', color: 'inherit' }}>
+            <h3>About Me</h3>
+          </Link>
         </div>
         <div className="headerDivider">
           <div className="divide"/>

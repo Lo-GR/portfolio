@@ -9,7 +9,7 @@
   --harshContrast: #FCA311;
   --defaultReactBackground: #282c34;
 }
-h2, h3 {
+.container h2, h3 {
   font-size: medium;
 }
 .container{
