@@ -12,13 +12,23 @@
 h2, h3 {
   font-size: medium;
 }
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.top{
+  height: 50px;
+  background-color: var(--defaultReactBackground);
+  width: 100%;
+}
 .headerArea{
   width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   margin-bottom: 0px;
-  margin-top: 50px;
   background-color: var(--offWhite);
 }
 .linkBox{
