@@ -14,7 +14,7 @@ export default function HeaderDropDown() {
       <Link to="/aboutme" style={{ textDecoration: 'inherit', color: 'inherit' }}>
         <h3>About Me</h3>
       </Link>
-      <h3>Blog (Coming soon)</h3>
+      <h3 style={{textDecoration: "line-through"}}>Blog</h3>
     </div>
   )
 }
