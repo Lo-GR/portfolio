@@ -3,6 +3,7 @@ import "../../styles/components/Header.css";
 import { Link } from "react-router-dom"
 import Menu from "../../assets/svg/menu.svg"
 import Close from "../../assets/svg/close.svg"
+import HeaderDropDown from './HeaderDropDown';
 
 
 export default function Header({}) {
@@ -52,7 +53,10 @@ export default function Header({}) {
         </div>
         <div className="menuIcon" onClick={handleDropDownClick}>
           {dropDown ? 
-            <img src={Close}/> : 
+            <div>
+              <img src={Close}/> 
+              <HeaderDropDown /> 
+            </div>: 
             <img src={Menu} className="menuClosed"/> 
           }
         </div>
