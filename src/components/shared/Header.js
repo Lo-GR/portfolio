@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../../styles/components/Header.css";
 import { Link } from "react-router-dom"
+import Menu from "../../assets/svg/menu.svg"
 
 
 export default function Header({}) {
+  const [dropDown, setDropDown] = useState(false);
   return (
     <div className="container">
       <div className="top" />
@@ -40,6 +42,12 @@ export default function Header({}) {
         </div>
         <div className="linkBox">
           <h3>Blog (Coming soon)</h3>
+        </div>
+        <div className="headerDividerSingle">
+          <div className="divide"/>
+        </div>
+        <div className="menuIcon">
+          <img src={Menu} />
         </div>
       </div>
     </div>

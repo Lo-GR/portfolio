@@ -51,3 +51,22 @@
   width: 1px;
   background-image: linear-gradient( to left, var(--altContrast), var(--harshContrast), var(--altContrast));
 }
+.menuIcon, .headerDividerSingle{
+  display: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .headerDivider, .linkBox{
+    display: none;
+  }
+  .menuIcon, .headerDividerSingle{
+    display: inherit;
+  }
+  .menuIcon {
+    width: 64px;
+  }
+  .headerArea{
+    justify-content: space-evenly;
+  }
+}
