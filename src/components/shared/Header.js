@@ -2,10 +2,14 @@ import React, { useState } from 'react'
 import "../../styles/components/Header.css";
 import { Link } from "react-router-dom"
 import Menu from "../../assets/svg/menu.svg"
+import Close from "../../assets/svg/close.svg"
 
 
 export default function Header({}) {
   const [dropDown, setDropDown] = useState(false);
+  const handleDropDownClick = () =>{
+    setDropDown(!dropDown);
+  }
   return (
     <div className="container">
       <div className="top" />
@@ -33,7 +37,7 @@ export default function Header({}) {
           <div className="divide"/>
         </div>
         <div className="linkBox">
-        <Link to="/aboutme" style={{ textDecoration: 'inherit', color: 'inherit' }}>
+          <Link to="/aboutme" style={{ textDecoration: 'inherit', color: 'inherit' }}>
             <h3>About Me</h3>
           </Link>
         </div>
@@ -46,8 +50,11 @@ export default function Header({}) {
         <div className="headerDividerSingle">
           <div className="divide"/>
         </div>
-        <div className="menuIcon">
-          <img src={Menu} />
+        <div className="menuIcon" onClick={handleDropDownClick}>
+          {dropDown ? 
+            <img src={Close}/> : 
+            <img src={Menu} className="menuClosed"/> 
+          }
         </div>
       </div>
     </div>

@@ -66,6 +66,11 @@
   .menuIcon {
     width: 64px;
   }
+  .menuClosed{
+    border: solid 1px var(--softHighlight);
+    border-radius: 5px;
+    box-shadow: 1px 1px var(--defaultReactBackground);
+  }
   .headerArea{
     justify-content: space-evenly;
   }
