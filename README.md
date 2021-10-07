@@ -4,7 +4,69 @@ https://zubazor.medium.com/visualizing-a-mountain-using-three-js-landsat-and-srt
 
 https://jam-icons.com/
 
-# Getting Started with Create React App
+# <div align="center"> **CRUDBuddy** </div>
+
+# <div align="center"> ![Cruddy](./public/logo192.png) </div>
+
+### This is a REACT programmed web application used to generate CRUD code
+
+ ### _Contributor(s) and Contact Info_
+> Logan Roth logan.roth.g@gmail.com - [GitHub(Lo-GR)](https://github.com/Lo-GR) 
+
+[//]: <> (Readme- Template by Logan Roth, please do not remove without giving proper contributions.)
+
+---
+
+## _Technologies Used_ ⚙
+
+* **HTML5/CSS3**
+* **React 17.0.2**
+* **Redux**
+* **JavaScript ES6**
+* **Node Package Manager 6.14.9**
+* **webpack 4.39.3**
+* **eslint 6.3.0**
+* **Firebase**
+* **Material UI**
+* **C#** (for reference)
+* **.NET 5** (for reference)
+
+## _Concepts Used_ 🧠
+
+* **CRUD Functionality**
+* **[Thinking in react](https://reactjs.org/docs/thinking-in-react.html)**
+* **Unidirectional Data Flow**
+* **State Management**
+
+---
+
+## _Description_ 📃
+
+This application is designed to help developers generate basic CRUD API for a C# and .Net application.
+
+---
+
+## _Installation Guide_ 💻 
+
+<details>
+<summary>Open for full guide</summary>
+
+### _Cloning and Initial Setup_
+
+> Repository: https://github.com/Lo-GR/crudbuddy.git
+1. In your terminal of choice or [GitHub's Desktop Application](https://desktop.github.com/), clone the above repository from Github. For further explanation on how to clone this repository, please visit [GitHub's Documentation](https://docs.github.com/en/github/using-git/which-remote-url-should-i-use).
+2. Ensure you are running node package manager (npm) by typing "npm -v" in your terminal. You should receive a version number back (such as 6.14.9). If NPM is not installed, visit [Node's website](https://nodejs.org/en/download/) and follow the installer's steps based on your OS.
+3. Once you verify you are running npm, navigate in your terminal to crudbuddy directory. One there, run "npm install" in your terminal. 
+4. You can open the code in a code editor. [VS Code is recommended](https://code.visualstudio.com/)
+
+</details>
+
+---
+
+## _Additional Instructions Supplied by the React Team_  👩‍💼
+
+<details>
+<summary>Open for full guide</summary>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -74,3 +136,44 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+</details>
+
+---
+
+## _Known Bugs_ 🩹
+* No known bugs at this time. Please contact the contributors if any are located during use.
+
+---
+
+## _Future Updates_ 🛠
+* Add environment templates
+* User Login
+* CRUD for more programs
+
+---
+
+## _Preplanning/Diagrams_ 📋
+
+<details>
+<summary>Open to see details</summary>
+
+### Component Diagram
+
+![Component Diagram](./CompLayout.png)
+
+### UI Diagram
+
+![Component Diagram](./UILayout.png)
+
+</details>
+
+---
+
+## _License_ ⚖️
+
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+Copyright (c) 2021, Logan Roth.
+
+[//]: <> (Readme- Template by Logan Roth, please do not remove without giving proper contributions.)
