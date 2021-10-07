@@ -62,10 +62,6 @@
   animation: selected 1s ease;
   animation-iteration-count: initial;
 }
-/* .linkArea:active > .backPart{
-  animation: clicked 1s ease;
-  animation-iteration-count: initial;
-} */
 .homepageText{
   color: var(--white);
   margin-right: 5%;

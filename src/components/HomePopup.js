@@ -85,10 +85,6 @@ export default function HomePopup({ setAppear }) {
                       <div className="skillsTech">DEI Conscious</div>
                     </div>
                   </div>
-                  {/* <div className="briefChild">
-                  Will add this back later when wanting to add additional stats
-                  <img className="icons" src={Time} />
-                  </div> */}
                 </div>
               </div>
             </div>

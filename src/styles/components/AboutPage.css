@@ -148,10 +148,8 @@
 @keyframes enter {
   0%{
     top: 100%;
-    /* position: relative; */
   }
   100%{
     top: 50%;
-    /* position: relative; */
   }
 }
