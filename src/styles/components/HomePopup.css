@@ -27,7 +27,7 @@
   border-style: solid;
   border-left: none;
   border-right: none;
-  animation: roll .75s ease, enterHover 1.5s infinite; 
+  animation: rollIn .75s ease, enterHover 1.5s infinite; 
   position: relative;
   background-color: var(--offWhite);
   flex-direction: column;
@@ -136,9 +136,9 @@
 
 
 /* Animations */
-@keyframes roll {
+@keyframes rollIn {
   0%   {left:100% }
-  100% {left:0% }
+  100% {left: 0 }
 }
 
 @keyframes enterHover {
