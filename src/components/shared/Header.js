@@ -6,7 +6,7 @@ import Close from "../../assets/svg/close.svg"
 import HeaderDropDown from './HeaderDropDown';
 
 
-export default function Header({}) {
+export default function Header() {
   const [dropDown, setDropDown] = useState(false);
   const handleDropDownClick = () =>{
     setDropDown(!dropDown);

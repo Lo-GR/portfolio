@@ -5,7 +5,7 @@ import HomepageLinks from '../components/HomepageLinks'
 import "../styles/pages/Home.css"
 import Footer from '../components/shared/Footer'
 
-export default function Home({}) {
+export default function Home() {
   const [appear, setAppear] = useState(false);
   return (
     <div>
