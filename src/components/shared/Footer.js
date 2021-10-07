@@ -24,14 +24,14 @@ export default function Footer() {
           <p>Blog</p>
         </div>
         <div className="additionalLinks">
-          <a href="https://github.com/Lo-GR" target="_blank"><p>GitHub</p> </a>
-          <a href="https://linkedin.com/in/lo-gr" target="_blank"><p>LinkedIn</p></a>
-          <a href="https://leetcode.com/Lo-GR/" target="_blank"><p>LeetCode</p></a>
+          <a href="https://github.com/Lo-GR" target="_blank" rel="noreferrer"><p>GitHub</p> </a>
+          <a href="https://linkedin.com/in/lo-gr" target="_blank" rel="noreferrer"><p>LinkedIn</p></a>
+          <a href="https://leetcode.com/Lo-GR/" target="_blank" rel="noreferrer"><p>LeetCode</p></a>
         </div>
       </div>
       <div className="sectionDiver" />
       <div className="copyRight">
-        <p>©2021 Logan Roth. License <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a></p>
+        <p>©2021 Logan Roth. License <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noreferrer">MIT</a></p>
       </div>
     </div>
   )

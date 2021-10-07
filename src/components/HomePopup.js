@@ -38,13 +38,13 @@ export default function HomePopup({ setAppear }) {
                   <a href="mailto:logan.roth.g@gmail.com" >
                     <img className="icons" src={Envelope} style={{animationDuration: "2.3s"}}/>
                   </a>
-                  <a href="https://github.com/Lo-GR" target="_blank">
+                  <a href="https://github.com/Lo-GR" target="_blank" rel="noreferrer">
                     <img className="icons" src={GitHub} style={{animationDuration: "2.6s"}}/>
                   </a>
-                  <a href="https://linkedin.com/in/lo-gr" target="_blank">
+                  <a href="https://linkedin.com/in/lo-gr" target="_blank" rel="noreferrer">
                     <img className="icons" src={LinkedIn} style={{animationDuration: "2.9s"}}/>
                   </a>
-                  <a href="https://leetcode.com/Lo-GR/" target="_blank">
+                  <a href="https://leetcode.com/Lo-GR/" target="_blank" rel="noreferrer">
                     <img className="icons" src={LeetCode} style={{animationDuration: "3.2s"}}/>
                   </a>
                 </div>
@@ -54,7 +54,7 @@ export default function HomePopup({ setAppear }) {
                   <div className="briefChild">
                     <h3>Brief About Me</h3>
                     <div className="sectionDivider" />
-                    <p>I am a graduate from <a href="https://www.epicodus.com/" target="_blank"><b>Epicodus</b></a> web development school. I'm a native Washingtonian living in Redmond. I have a background in business, customer service and communication. I graduated from South Dakota State University (long story) with a Bachelor of Science in Entrepreneurial Studies and Marketing. I'm sure if you're here, you're likely a recruiter, and likely busy. So here's a quick rundown of my skills</p>
+                    <p>I am a graduate from <a href="https://www.epicodus.com/" target="_blank" rel="noreferrer"><b>Epicodus</b></a> web development school. I'm a native Washingtonian living in Redmond. I have a background in business, customer service and communication. I graduated from South Dakota State University (long story) with a Bachelor of Science in Entrepreneurial Studies and Marketing. I'm sure if you're here, you're likely a recruiter, and likely busy. So here's a quick rundown of my skills</p>
                     <h3>Tech I've Worked With</h3>
                     <div className="sectionDivider" />
                     <div className="skillsTechArea">
