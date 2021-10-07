@@ -1,14 +1,7 @@
-https://www.freecodecamp.org/news/a-better-way-to-structure-react-projects/
 
-https://zubazor.medium.com/visualizing-a-mountain-using-three-js-landsat-and-srtm-26275c920e34
+# <div align="center"> **Portfolio Website** </div>
 
-https://jam-icons.com/
-
-# <div align="center"> **CRUDBuddy** </div>
-
-# <div align="center"> ![Cruddy](./public/logo192.png) </div>
-
-### This is a REACT programmed web application used to generate CRUD code
+### This is a REACT programmed web application for use of its designers personal portfolio website
 
  ### _Contributor(s) and Contact Info_
 > Logan Roth logan.roth.g@gmail.com - [GitHub(Lo-GR)](https://github.com/Lo-GR) 
@@ -17,36 +10,35 @@ https://jam-icons.com/
 
 ---
 
-## _Technologies Used_ ⚙
+## _Technologies Used_ 
 
 * **HTML5/CSS3**
 * **React 17.0.2**
-* **Redux**
-* **JavaScript ES6**
+* **JavaScript**
 * **Node Package Manager 6.14.9**
 * **webpack 4.39.3**
 * **eslint 6.3.0**
-* **Firebase**
-* **Material UI**
-* **C#** (for reference)
-* **.NET 5** (for reference)
-
-## _Concepts Used_ 🧠
-
-* **CRUD Functionality**
-* **[Thinking in react](https://reactjs.org/docs/thinking-in-react.html)**
-* **Unidirectional Data Flow**
-* **State Management**
+* **AWS**
+* **Three.js**
+* **React Three Fiber**
 
 ---
 
-## _Description_ 📃
+## _Description_ 
 
-This application is designed to help developers generate basic CRUD API for a C# and .Net application.
+This application is designed to help show off skills, experience and background of its designer
 
 ---
 
-## _Installation Guide_ 💻 
+## _References and Credits_ 
+
+* Icons retrieved from https://jam-icons.com/
+* File structure based on this article: https://www.freecodecamp.org/news/a-better-way-to-structure-react-projects/
+* Three.js design and concepts Courtesy of Bruno Simon of https://threejs-journey.xyz/ and Gary Simon of DesignCourse (https://www.youtube.com/watch?v=pUgWfqWZWmM)
+
+---
+
+## _Installation Guide_ 
 
 <details>
 <summary>Open for full guide</summary>
@@ -63,7 +55,7 @@ This application is designed to help developers generate basic CRUD API for a C#
 
 ---
 
-## _Additional Instructions Supplied by the React Team_  👩‍💼
+## _Additional Instructions Supplied by the React Team_ 
 
 <details>
 <summary>Open for full guide</summary>
@@ -141,36 +133,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ---
 
-## _Known Bugs_ 🩹
+## _Known Bugs_ 
 * No known bugs at this time. Please contact the contributors if any are located during use.
 
 ---
 
-## _Future Updates_ 🛠
-* Add environment templates
-* User Login
-* CRUD for more programs
-
+## _Future Updates_ 
+* Page content for Projects and about me
+* Blog functionality with backend and graphQL integration
+* Replace geometric object with mountain parallax (See https://zubazor.medium.com/visualizing-a-mountain-using-three-js-landsat-and-srtm-26275c920e34 for concept)
 ---
 
-## _Preplanning/Diagrams_ 📋
-
-<details>
-<summary>Open to see details</summary>
-
-### Component Diagram
-
-![Component Diagram](./CompLayout.png)
-
-### UI Diagram
-
-![Component Diagram](./UILayout.png)
-
-</details>
-
----
-
-## _License_ ⚖️
+## _License_ 
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
