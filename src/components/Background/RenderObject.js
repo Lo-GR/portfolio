@@ -3,7 +3,7 @@ import { TextureLoader } from 'three'
 import { useFrame, useLoader } from '@react-three/fiber'
 
 export default function RenderObject({ position }) {
-  const [normalMap, roughness, color, displacement] = useLoader(TextureLoader, ["MetalPlates006_1K_NormalGL.jpg", "MetalPlates006_1K_Roughness.jpg", "MetalPlates006_1K_Color.jpg", "MetalPlates006_1K_Displacement.jpg"])
+  const [normalMap, roughness, color] = useLoader(TextureLoader, ["MetalPlates006_1K_NormalGL.jpg", "MetalPlates006_1K_Roughness.jpg", "MetalPlates006_1K_Color.jpg", "MetalPlates006_1K_Displacement.jpg"])
   const mesh = useRef();
   useFrame((state, delta) => {
     mesh.current.rotation.x += .01;

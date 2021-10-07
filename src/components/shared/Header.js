@@ -53,9 +53,9 @@ export default function Header({}) {
         </div>
         <div className="menuIcon" onClick={handleDropDownClick}>
           {dropDown ? 
-            <img src={Close}/> 
+            <img src={Close} alt="CloseIcon"/> 
             : 
-            <img src={Menu} className="menuClosed"/> 
+            <img src={Menu} className="menuClosed" alt="MenuIcon"/> 
           }
         </div>
       </div>

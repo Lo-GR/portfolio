@@ -33,19 +33,19 @@ export default function HomePopup({ setAppear }) {
             <h3>Hi! I'm Logan...</h3>
             <div className="popupContents"> 
               <div className="images">
-                <img className="portrait" src={Portrait} style={{animationDuration: "2s"}}/>
+                <img className="portrait" src={Portrait} style={{animationDuration: "2s"}} alt="self portrait"/>
                 <div className="iconLinks">
                   <a href="mailto:logan.roth.g@gmail.com" >
-                    <img className="icons" src={Envelope} style={{animationDuration: "2.3s"}}/>
+                    <img className="icons" src={Envelope} style={{animationDuration: "2.3s"}} alt="mail"/>
                   </a>
                   <a href="https://github.com/Lo-GR" target="_blank" rel="noreferrer">
-                    <img className="icons" src={GitHub} style={{animationDuration: "2.6s"}}/>
+                    <img className="icons" src={GitHub} style={{animationDuration: "2.6s"}} alt="GitHub"/>
                   </a>
                   <a href="https://linkedin.com/in/lo-gr" target="_blank" rel="noreferrer">
-                    <img className="icons" src={LinkedIn} style={{animationDuration: "2.9s"}}/>
+                    <img className="icons" src={LinkedIn} style={{animationDuration: "2.9s"}} alt="LinkedIN"/>
                   </a>
                   <a href="https://leetcode.com/Lo-GR/" target="_blank" rel="noreferrer">
-                    <img className="icons" src={LeetCode} style={{animationDuration: "3.2s"}}/>
+                    <img className="icons" src={LeetCode} style={{animationDuration: "3.2s"}} alt="LeetCode"/>
                   </a>
                 </div>
               </div>
@@ -95,7 +95,7 @@ export default function HomePopup({ setAppear }) {
             <div className="more" style={{animationDuration: "4.2s"}}>
               <h3>Scroll down for links to additional information on my background, my projects and my personal blog!</h3>
               <p>(Note: Some links may not be active, this site is a WIP)</p>
-              <img src={Arrow} />
+              <img src={Arrow} alt="down arrow"/>
             </div>
           </div>
         }
