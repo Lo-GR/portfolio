@@ -1,14 +1,3 @@
-:root {
-  --black: #000000;
-  --white: #FFFFFF;
-  --offWhite: #FBFFFE;
-  --softHighlight: #ADB6C4;
-  --strongHighlight: #14213D;
-  --contrast: #CBDFBD;
-  --altContrast: #5BBA6F;
-  --harshContrast: #FCA311;
-  --defaultReactBackground: #282c34;
-}
 
 .projectsContentArea{
   background-color: var(--offWhite);
