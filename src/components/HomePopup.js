@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import "../styles/components/HomePopup.css"
 import AboutPage from "../components/shared/AboutPage"
-import Portrait from "../assets/img/stock-guy.jpg"
+import Portrait from "../assets/img/portrait.png"
 import Envelope from "../assets/svg/envelope-f.svg"
 import GitHub from "../assets/img/GitHub-Mark-64px.png"
 import LinkedIn from "../assets/img/LI-In-Bug.png"
