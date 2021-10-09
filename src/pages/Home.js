@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <Background animatedBackground={browser === "Apple Safari" ? false : true}/>
-      <HomePopup setAppear={setAppear}/>
+      <HomePopup browser={browser} setAppear={setAppear}/>
       {appear ? 
         <div>
           <HomepageLinks />

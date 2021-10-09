@@ -9,7 +9,7 @@ import LeetCode from "../assets/img/leetcode.png"
 import Arrow from "../assets/svg/chevrons-down.svg"
 
 
-export default function HomePopup({ setAppear }) {
+export default function HomePopup({ setAppear, browser }) {
   const [ enter, setEnter ] = useState(false)
   const handleEnter = () =>{
     setEnter(true);
@@ -24,9 +24,12 @@ export default function HomePopup({ setAppear }) {
     <div>
       <div className="mainArea" >
         {!enter ? 
+        <div>
           <div className="pressableEnter" onClick={handleEnter}>
             <h2>E N T E R</h2>
           </div>
+            {browser === "Apple Safari" ? <div className="browserWarning"><h3>-Please Note-</h3><p> It appears you're using Safari/iPhone browsers! That's cool. Just know that Apple doesn't like Three.js. Normally, there's a cool object floating here. I had to disable it on certain browsers. If you'd like to see it, please try another browser!</p></div> : null}
+        </div>
         :
           <div className="popupFrame" >
             <h2>WELCOME</h2>
