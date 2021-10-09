@@ -65,6 +65,10 @@
   .headerArea{
     justify-content: space-evenly;
   }
+  html, body{
+    overflow-x: hidden;
+    position: relative;
+  }
 }
 
 
