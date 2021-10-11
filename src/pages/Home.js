@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react'
+import React, { useContext } from 'react'
 import { Context } from "../context/mainContext"
 import Background from '../components/Background/Background'
 import HomePopup from '../components/HomePopup'
@@ -8,8 +8,7 @@ import Footer from '../components/shared/Footer'
 import browserCheck from '../functions/browserCheck'
 
 export default function Home() {
-  const { enter, setEnter } = useContext(Context)
-  // const [appear, setAppear] = useState(false);
+  const { enter } = useContext(Context)
   const browser = browserCheck();
   return (
     <div>

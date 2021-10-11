@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react'
+import React, { useContext } from 'react'
 import { Context } from "../context/mainContext"
 import "../styles/components/HomePopup.css"
 import AboutPage from "../components/shared/AboutPage"
@@ -11,11 +11,9 @@ import Arrow from "../assets/svg/chevrons-down.svg"
 
 
 export default function HomePopup({ setAppear, browser }) {
-  // const [ enter, setEnter ] = useState(false)
   const { enter, setEnter } = useContext(Context);
   const handleEnter = () =>{
     setEnter(true);
-    // setAppear(true);
   }
   const aboutText = {
     title: "About this website",
