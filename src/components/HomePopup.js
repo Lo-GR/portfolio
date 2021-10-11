@@ -17,7 +17,7 @@ export default function HomePopup({ setAppear, browser }) {
   }
   const aboutText = {
     title: "About this website",
-    description: "I built this website with the intention to show off several skills I have developed. Each page will include the dancing question mark icon with a description of the underlying tech behind how that page was made. The background is a render object powered by WebGL through Three.js",
+    description: "I built this website with the intention to show off several skills I have developed. Each page will include the dancing question mark icon with a description of the underlying tech behind how that page was made. The background is a render object powered by WebGL through Three.js.",
     tech: "React |  Three.js | React Three Fiber | JavaScript"
   }
   return (

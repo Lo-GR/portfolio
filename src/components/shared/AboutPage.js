@@ -18,7 +18,7 @@ export default function AboutPage({ title, description, tech }) {
           <h3>{title}</h3>
           <div className="aboutText">
             {description}
-            <h3>Tech Use For This Page</h3>
+            <h3>Tech Used For This Page</h3>
             {tech}
           </div>
         </div> 
