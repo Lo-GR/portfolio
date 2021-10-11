@@ -15,7 +15,7 @@ export default function HomePopup({ setAppear, browser }) {
   const { enter, setEnter } = useContext(Context);
   const handleEnter = () =>{
     setEnter(true);
-    setAppear(true);
+    // setAppear(true);
   }
   const aboutText = {
     title: "About this website",
