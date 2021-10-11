@@ -57,7 +57,7 @@ export default function HomePopup({ setAppear, browser }) {
                   <div className="briefChild">
                     <h3>Brief About Me</h3>
                     <div className="sectionDivider" />
-                    <p>I am a graduate from <a href="https://www.epicodus.com/" target="_blank" rel="noreferrer"><b>Epicodus</b></a> web development school. I'm a native Washingtonian living in Redmond. I have a background in business, customer service and communication. I graduated from South Dakota State University (long story) with a Bachelor of Science in Entrepreneurial Studies and Marketing. I'm sure if you're here, you're likely a recruiter, and likely busy. So here's a quick rundown of my skills</p>
+                    <p>I am a graduate from <a href="https://www.epicodus.com/" target="_blank" rel="noreferrer"><b>Epicodus</b></a> web development school. I'm a native Washingtonian living in Redmond. I have a background in business, customer service and communication. I graduated from South Dakota State University (long story) with a Bachelor of Science in Entrepreneurial Studies and Marketing. I'm sure if you're here, you're likely a recruiter and here to get an idea of my skills. So here's a quick rundown:</p>
                     <h3>Tech I've Worked With</h3>
                     <div className="sectionDivider" />
                     <div className="skillsTechArea">
