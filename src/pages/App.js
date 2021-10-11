@@ -1,4 +1,5 @@
 import '../styles/Global.css';
+import { ContextProvider } from "../context/mainContext"
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,22 +13,24 @@ import ScrollToTop from '../components/shared/ScrollToTop';
 function App() {
   return (
     <div className="App">
-      <Router>
-      <ScrollToTop />
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/aboutme">
-            <AboutMe />
-          </Route>
-          <Route exact path="/projects">
-            <Projects />
-          </Route>
-        </Switch>
-      </Router>
+      <ContextProvider>
+        <Router>
+        <ScrollToTop />
+          {/* A <Switch> looks through its children <Route>s and
+              renders the first one that matches the current URL. */}
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/aboutme">
+              <AboutMe />
+            </Route>
+            <Route exact path="/projects">
+              <Projects />
+            </Route>
+          </Switch>
+        </Router>
+      </ContextProvider>
     </div>
   );
 }
