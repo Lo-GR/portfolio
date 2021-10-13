@@ -24,8 +24,21 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.projectDetailsArea a{
+  text-decoration: none;
+}
 .details h3, .details h2, .details p{
   color: var(--offWhite);
+}
+.linkSpace{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.linkSpace img{
+  height: 40px;
+  filter: invert(100%);
 }
 
 @media only screen and (max-width: 320px) {
