@@ -1,4 +1,5 @@
 import MemorySpace from "../assets/img/Memory-Space.png"
+import CrudBuddy from "../assets/img/Crud-Buddy.png"
 
 //siteImage, siteTitle, siteDesc, siteTech
 export default function siteData(){
@@ -8,7 +9,14 @@ export default function siteData(){
     siteDesc: "etc etc etc etc etc etc etc etc etc etc etc etc etc etc etc etc ",
     siteTech: "etc etc etc etc "
   }
+  const crudBuddy = {
+    siteImage: CrudBuddy,
+    siteTitle: "_CRUDBuddy",
+    siteDesc: "etc etc etc etc etc etc etc etc etc etc etc etc etc etc etc etc ",
+    siteTech: "etc etc etc etc "
+  }
   return {
     memorySpace,
+    crudBuddy
   }
 }
