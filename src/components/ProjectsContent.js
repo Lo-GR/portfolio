@@ -4,7 +4,7 @@ import "../styles/components/ProjectsContent.css"
 import siteData from "../functions/siteData"
 
 export default function ProjectsContent() {
-  const { memorySpace, crudBuddy, nationalParks } = siteData();
+  const { memorySpace, crudBuddy, nationalParks, apod } = siteData();
   return (
     <div className="projectsContentArea">
       <ProjectDetails 
@@ -15,6 +15,13 @@ export default function ProjectsContent() {
         siteLink={memorySpace.siteLink}
       />
       <ProjectDetails 
+        siteImage={nationalParks.siteImage} 
+        siteTitle={nationalParks.siteTitle}
+        siteDesc={nationalParks.siteDesc}
+        siteTech={nationalParks.siteTech}
+        siteLink={nationalParks.siteLink}
+      />
+      <ProjectDetails 
         siteImage={crudBuddy.siteImage} 
         siteTitle={crudBuddy.siteTitle}
         siteDesc={crudBuddy.siteDesc}
@@ -22,11 +29,11 @@ export default function ProjectsContent() {
         siteLink={crudBuddy.siteLink}
       />
       <ProjectDetails 
-        siteImage={nationalParks.siteImage} 
-        siteTitle={nationalParks.siteTitle}
-        siteDesc={nationalParks.siteDesc}
-        siteTech={nationalParks.siteTech}
-        siteLink={nationalParks.siteLink}
+        siteImage={apod.siteImage} 
+        siteTitle={apod.siteTitle}
+        siteDesc={apod.siteDesc}
+        siteTech={apod.siteTech}
+        siteLink={apod.siteLink}
       />
     </div>
   )

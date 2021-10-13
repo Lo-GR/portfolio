@@ -8,7 +8,8 @@
 }
 .websiteImage{
   max-height: 100vh;
-  opacity: .7;
+  opacity: .75;
+  filter: blur(1px);
   position: absolute;
 }
 .details{
@@ -23,6 +24,8 @@
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
+  border-top: solid 1px var(--offWhite);
+  border-bottom: solid 1px var(--offWhite);
 }
 .projectDetailsArea a{
   text-decoration: none;
