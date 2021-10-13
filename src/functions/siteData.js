@@ -1,5 +1,6 @@
 import MemorySpace from "../assets/img/Memory-Space.png"
 import CrudBuddy from "../assets/img/Crud-Buddy.png"
+import NationalParks from "../assets/img/National-Parks.png"
 
 //siteImage, siteTitle, siteDesc, siteTech
 export default function siteData(){
@@ -15,8 +16,15 @@ export default function siteData(){
     siteDesc: "etc etc etc etc etc etc etc etc etc etc etc etc etc etc etc etc ",
     siteTech: "etc etc etc etc "
   }
+  const nationalParks = {
+    siteImage: NationalParks,
+    siteTitle: "National Parks API",
+    siteDesc: "etc etc etc etc etc etc etc etc etc etc etc etc etc etc etc etc ",
+    siteTech: "etc etc etc etc "
+  }
   return {
     memorySpace,
-    crudBuddy
+    crudBuddy,
+    nationalParks
   }
 }
