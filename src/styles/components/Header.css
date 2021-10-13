@@ -72,4 +72,10 @@
   }
 }
 
+@media only screen and (max-width: 320px){
+  .container{
+    scroll-snap-align: none;
+  }
+}
+
 
