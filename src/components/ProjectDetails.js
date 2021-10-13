@@ -3,8 +3,7 @@ import Site from "../assets/img/Memory-Space.png"
 import "../styles/components/ProjectDetails.css";
 import Arrow from "../assets/svg/arrow-circle-right.svg"
 
-export default function ProjectDetails({ siteImage, siteTitle, siteDesc, siteTech}) {
-  const siteLink = "https://www.lo-gr.com/"
+export default function ProjectDetails({ siteImage, siteTitle, siteDesc, siteTech, siteLink}) {
   return (
     <div className="projectDetailsArea">
       <img src={siteImage} className="websiteImage"/>
