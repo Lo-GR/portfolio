@@ -7,6 +7,7 @@
   flex-direction: column;
   flex-wrap: nowrap;
   width: 100%;
+  scroll-snap-align: start;
 }
 .top{
   height: 50px;
@@ -68,6 +69,12 @@
   html, body{
     overflow-x: hidden;
     position: relative;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .container{
+    scroll-snap-align: none;
   }
 }
 

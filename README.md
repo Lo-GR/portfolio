@@ -35,6 +35,7 @@ This application is designed to help show off skills, experience and background 
 * Icons retrieved from https://jam-icons.com/
 * File structure based on this article: https://www.freecodecamp.org/news/a-better-way-to-structure-react-projects/
 * Three.js design and concepts Courtesy of Bruno Simon of https://threejs-journey.xyz/ and Gary Simon of DesignCourse (https://www.youtube.com/watch?v=pUgWfqWZWmM)
+* Scroll Snapping design based on https://www.youtube.com/watch?v=htw4iKMYzEc
 
 ---
 
