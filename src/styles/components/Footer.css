@@ -7,7 +7,7 @@
   background-color: var(--defaultReactBackground);
   margin-bottom: 0px;
   width: 100%;
-  scroll-snap-align: start;
+  scroll-snap-align: end;
 }
 .footerArea p, .footerArea a{
   color: var(--offWhite)

@@ -7,6 +7,7 @@ export default function ProjectsContent() {
   const { memorySpace, crudBuddy, nationalParks, apod } = siteData();
   return (
     <div className="projectsContentArea">
+      <h3 className="">Below are a list of projects I've worked on previous and currently. </h3>
       <ProjectDetails 
         siteImage={memorySpace.siteImage} 
         siteTitle={memorySpace.siteTitle}

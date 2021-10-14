@@ -28,7 +28,7 @@ export default function siteData(){
   const apod = {
     siteImage: APOD,
     siteTitle: "Astronomy Picture of the Day",
-    siteDesc: "An older project used for async and API practice. Using NASA's Astronomy Picture of the Day API, this app will query then pull pictures and information from NASA and display them to the user. Includes multiple query parameters for difference types of searches",
+    siteDesc: "An older project used for async and API practice. Using NASA's Astronomy Picture of the Day API, this app will query then pull pictures and information from NASA and display them to the user. Includes multiple query parameters for difference types of searches. Co developed with Ash Porter",
     siteTech: "JavaScript, JQuery, APIs",
     siteLink: "https://github.com/Lo-GR/apodNASA"
   }
