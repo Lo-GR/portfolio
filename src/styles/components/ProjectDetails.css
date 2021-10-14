@@ -44,6 +44,10 @@
   filter: invert(100%);
 }
 
+.explain{
+  text-align: center;
+}
+
 @media only screen and (max-width: 320px) {
   .projectDetailsArea{
     margin-top: 200px;
