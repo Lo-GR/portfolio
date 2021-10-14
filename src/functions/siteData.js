@@ -15,22 +15,22 @@ export default function siteData(){
   const crudBuddy = {
     siteImage: CrudBuddy,
     siteTitle: "_CRUDBuddy",
-    siteDesc: "Created as a capstone for Epicodus. This app can generate a copy-pastable set of code that can be used to generate a full CRUD .NET 5/SQL API. Fum features: includes algorithms to handle capitalizes to be code accurate and searches other entries for the same namespace",
+    siteDesc: "Created as a capstone for Epicodus. This app can generate a copy-pastable set of code that can be used to generate a full CRUD .NET 5/SQL API. Fun features: includes algorithms that capitalizes inputs to be code accurate and searches other entries for the same namespace",
     siteTech: "React, JavaScript, C#(for reference), .NET 5(for reference)",
     siteLink: "https://crudbuddy-47651.firebaseapp.com/"
   }
   const nationalParks = {
     siteImage: NationalParks,
     siteTitle: "National Parks API",
-    siteDesc: "etc etc etc etc etc etc etc etc etc etc etc etc etc etc etc etc ",
-    siteTech: "etc etc etc etc ",
+    siteDesc: "A REST API for tracking States and Parks. This was created as a relational database practice. Designed with a one to many relationship in mind and includes all API vowel endpoints. Interfaces with a SQL database. The image is a UI of Swagger that displays endpoint information and not a UI I designed",
+    siteTech: "C#, ASP.NET 5, SQL, Workbench, APIs, SQL",
     siteLink: "https://github.com/Lo-GR/NationalParksAPI.Solution"
   }
   const apod = {
     siteImage: APOD,
     siteTitle: "Astronomy Picture of the Day",
-    siteDesc: "etc etc etc etc etc etc etc etc etc etc etc etc etc etc etc etc ",
-    siteTech: "etc etc etc etc ",
+    siteDesc: "An older project used for async and API practice. Using NASA's Astronomy Picture of the Day API, this app will query then pull pictures and information from NASA and display them to the user. Includes multiple query parameters for difference types of searches",
+    siteTech: "JavaScript, JQuery, APIs",
     siteLink: "https://github.com/Lo-GR/apodNASA"
   }
   return {
