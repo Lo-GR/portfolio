@@ -5,6 +5,7 @@
   align-items: center;
   scroll-snap-align: start;
   position: relative;
+  overflow-x: hidden;
 }
 .websiteImage{
   max-height: 100vh;
