@@ -3,7 +3,6 @@ import CrudBuddy from "../assets/img/Crud-Buddy.png"
 import NationalParks from "../assets/img/National-Parks.png"
 import APOD from "../assets/img/APOD.png"
 
-//siteImage, siteTitle, siteDesc, siteTech
 export default function siteData(){
   const memorySpace = {
     siteImage: MemorySpace,
