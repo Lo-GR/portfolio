@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="footerArea">
       <div className="footerContent">
         <div className="personalInfo">
-          <p>Lo-GR</p>
+          {/* <p>Lo-GR</p> */}
           <p>Logan Roth</p>
           <p>Redmond, WA</p>
         </div>
@@ -31,7 +31,7 @@ export default function Footer() {
       </div>
       <div className="sectionDiver" />
       <div className="copyRight">
-        <p>©2021 Logan Roth. License <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noreferrer">MIT</a></p>
+        <p>©2022 Logan Roth. License <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noreferrer">MIT</a></p>
       </div>
     </div>
   )

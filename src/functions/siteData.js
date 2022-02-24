@@ -2,6 +2,7 @@ import MemorySpace from "../assets/img/Memory-Space.png"
 import CrudBuddy from "../assets/img/Crud-Buddy.png"
 import NationalParks from "../assets/img/National-Parks.png"
 import APOD from "../assets/img/APOD.png"
+import APOD2 from "../assets/img/APOD2.png"
 
 export default function siteData(){
   const memorySpace = {
