@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { Context } from "../context/mainContext"
 import "../styles/components/HomePopup.css"
-import AboutPage from "../components/shared/AboutPage"
+// import AboutPage from "../components/shared/AboutPage"
 import Portrait from "../assets/img/portrait.png"
 import Envelope from "../assets/svg/envelope-f.svg"
 import GitHub from "../assets/img/GitHub-Mark-64px.png"
@@ -15,11 +15,11 @@ export default function HomePopup({ setAppear, browser }) {
   const handleEnter = () =>{
     setEnter(true);
   }
-  const aboutText = {
-    title: "About this website",
-    description: "I built this website with the intention to show off several skills I have developed. Each page will include the dancing question mark icon with a description of the underlying tech behind how that page was made. The background is a render object powered by WebGL through Three.js.",
-    tech: "React |  Three.js | React Three Fiber | JavaScript"
-  }
+  // const aboutText = {
+  //   title: "About this website",
+  //   description: "I built this website with the intention to show off several skills I have developed. Each page will include the dancing question mark icon with a description of the underlying tech behind how that page was made. The background is a render object powered by WebGL through Three.js.",
+  //   tech: "React |  Three.js | React Three Fiber | JavaScript"
+  // }
   return (
     <div>
       <div className="mainArea" >
