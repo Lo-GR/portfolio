@@ -57,20 +57,20 @@ export default function HomePopup({ setAppear, browser }) {
                   <div className="briefChild">
                     <h3>Brief About Me</h3>
                     <div className="sectionDivider" />
-                    <p>I am a graduate from <a href="https://www.epicodus.com/" target="_blank" rel="noreferrer"><b>Epicodus</b></a> web development school. I'm a native Washingtonian living in Redmond. I have a background in business, customer service and communication. I graduated from South Dakota State University (long story) with a Bachelor of Science in Entrepreneurial Studies and Marketing. I'm sure if you're here, you're likely a recruiter and here to get an idea of my skills. So here's a quick rundown:</p>
+                    <p>I am a Cloud Engineer and native Washingtonian living in Redmond. I have a background in business, customer service and communication. I graduated from <a href="https://www.epicodus.com/" target="_blank" rel="noreferrer"><b>Epicodus</b></a> web development school and from South Dakota State University (long story) with a Bachelor of Science in Entrepreneurial Studies and Marketing. I'm sure if you're here, you're likely a recruiter and here to get an idea of my skills. So here's a quick rundown:</p>
                     <h3>Tech I've Worked With</h3>
                     <div className="sectionDivider" />
                     <div className="skillsTechArea">
                       <div className="skillsTech">JavaScript</div>
                       <div className="skillsTech">C#</div>
-                      <div className="skillsTech">Java</div>
+                      <div className="skillsTech">TypeScript</div>
+                      <div className="skillsTech">AWS</div>
                       <div className="skillsTech">HTML5</div>
                       <div className="skillsTech">CSS3</div>
                       <div className="skillsTech">React</div>
                       <div className="skillsTech">React Native</div>
                       <div className="skillsTech">ASP.NET 5</div>
                       <div className="skillsTech">Firebase</div>
-                      <div className="skillsTech">AWS</div>
                       <div className="skillsTech">Node.js</div>
                       <div className="skillsTech">SQL</div>
                       <div className="skillsTech">NPM</div>
@@ -91,10 +91,10 @@ export default function HomePopup({ setAppear, browser }) {
                 </div>
               </div>
             </div>
-            <div className="about" style={{animationDuration: "3.9s"}} >
+            {/* <div className="about" style={{animationDuration: "3.9s"}} >
               <AboutPage title={aboutText.title} description={aboutText.description} tech={aboutText.tech}/> 
               <p style={{marginLeft: "5px"}}>Click this icon to learn more about this site</p>
-            </div>
+            </div> */}
             <div className="more" style={{animationDuration: "4.2s"}}>
               <h3>Scroll down for links to additional information on my background, my projects and my personal blog!</h3>
               <p>(Note: Some links may not be active, this site is a WIP)</p>
