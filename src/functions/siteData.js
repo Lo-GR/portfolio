@@ -43,6 +43,7 @@ export default function siteData(){
     memorySpace,
     crudBuddy,
     nationalParks,
-    apod
+    apod,
+    apod2
   }
 }
