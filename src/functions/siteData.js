@@ -32,6 +32,13 @@ export default function siteData(){
     siteTech: "JavaScript, JQuery, APIs",
     siteLink: "https://github.com/Lo-GR/apodNASA"
   }
+  const apod2 = {
+    siteImage: APOD2,
+    siteTitle: "Astronomy Picture of the Day (React vr.)",
+    siteDesc: "WIP: Using NASA's Astronomy Picture of the Day API, this app will query then pull pictures and information from NASA and display them to the user. A remake of a previous project built in JQuery",
+    siteTech: "JavaScript, React, APIs, Tailwind",
+    siteLink: "https://github.com/Lo-GR/apod"
+  }
   return {
     memorySpace,
     crudBuddy,
